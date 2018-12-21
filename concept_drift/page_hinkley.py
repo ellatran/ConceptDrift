@@ -2,7 +2,7 @@
 
 
 class PageHinkley:
-    def __init__(self, delta_=0.005, lambda_=50, alpha_=1 - 0.0001):
+    def __init__(self, delta_=0.005, lambda_=3, alpha_=1 - 0.0001):
         self.delta_ = delta_
         self.lambda_ = lambda_
         self.alpha_ = alpha_
